@@ -1,0 +1,36 @@
+{
+  "network": {
+    "topology": [3, 4, 3],
+    "neurons": [
+      {"layer": 1, "neuron": 1, "output": 0},
+      {"layer": 1, "neuron": 2, "output": 0},
+      {"layer": 1, "neuron": 3, "bias": 1, "output": 1},
+      {"layer": 2, "neuron": 1, "output": 0},
+      {"layer": 2, "neuron": 2, "output": 0},
+      {"layer": 2, "neuron": 3, "output": 0},
+      {"layer": 2, "neuron": 4, "bias": 1, "output": 1},
+      {"layer": 3, "neuron": 1, "output": 0},
+      {"layer": 3, "neuron": 2, "output": 1},
+      {"layer": 3, "neuron": 3, "bias": 1, "output": 0}
+    ],
+    "connections": [
+      {"sourceLayer": 1, "sourceNeuron": 1, "destLayer": 2, "destNeuron": 1, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 1, "sourceNeuron": 1, "destLayer": 2, "destNeuron": 2, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 1, "sourceNeuron": 1, "destLayer": 2, "destNeuron": 3, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 1, "sourceNeuron": 2, "destLayer": 2, "destNeuron": 1, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 1, "sourceNeuron": 2, "destLayer": 2, "destNeuron": 2, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 1, "sourceNeuron": 2, "destLayer": 2, "destNeuron": 3, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 1, "sourceNeuron": 3, "destLayer": 2, "destNeuron": 1, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 1, "sourceNeuron": 3, "destLayer": 2, "destNeuron": 2, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 1, "sourceNeuron": 3, "destLayer": 2, "destNeuron": 3, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 2, "sourceNeuron": 1, "destLayer": 3, "destNeuron": 1, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 2, "sourceNeuron": 1, "destLayer": 3, "destNeuron": 2, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 2, "sourceNeuron": 2, "destLayer": 3, "destNeuron": 1, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 2, "sourceNeuron": 2, "destLayer": 3, "destNeuron": 2, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 2, "sourceNeuron": 3, "destLayer": 3, "destNeuron": 1, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 2, "sourceNeuron": 3, "destLayer": 3, "destNeuron": 2, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 2, "sourceNeuron": 4, "destLayer": 3, "destNeuron": 1, "weight": 0, "deltaWeight": 0},
+      {"sourceLayer": 2, "sourceNeuron": 4, "destLayer": 3, "destNeuron": 2, "weight": 0, "deltaWeight": 0}
+    ]
+  }
+}
